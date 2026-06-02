@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fenerium | İletişim</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <h1>FENERİUM</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Ana Sayfa</a></li>
+                <li><a href="urunler.html">Ürünlerimiz</a></li>
+                <li><a href="sepet.html">Sepetim</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2 class="merkez-yazi">Bize Ulaşın</h2>
+        <p class="merkez-yazi">Soru, görüş, öneri ve toplu siparişleriniz için aşağıdaki formu doldurabilirsiniz.</p>
+
+        <div class="iletisim-formu">
+            <form action="#">
+                <div class="form-elemani">
+                    <label for="ad">Adınız Soyadınız:</label>
+                    <input type="text" id="ad" name="ad" required>
+                </div>
+                
+                <div class="form-elemani">
+                    <label for="eposta">E-Posta Adresiniz:</label>
+                    <input type="email" id="eposta" name="eposta" required>
+                </div>
+
+                <div class="form-elemani">
+                    <label for="mesaj">Mesajınız:</label>
+                    <textarea id="mesaj" name="mesaj" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="buton gonder-buton">Gönder</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>2026 © Fenerbahçe Spor Kulübü - Web Tasarım Ödevi</p>
+    </footer>
+
+    <script src="../scripts/myscript.js"></script>
+</body>
+</html>
