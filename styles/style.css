@@ -59,3 +59,8 @@ body {
 .soru-blogu { margin-bottom: 25px; padding-bottom: 15px; border-bottom: 1px dashed #ccc; }
 .soru-blogu p { color: #043673; margin-bottom: 10px; }
 .iletisim-formu .quiz-secenek { display: block; font-weight: normal; margin-bottom: 8px; cursor: pointer; }
+/* Ana Sayfa Karşılama Ekranını (Hero) Ortalama */
+.hero-bolumu {
+    text-align: center;
+    margin-bottom: 40px;
+}
